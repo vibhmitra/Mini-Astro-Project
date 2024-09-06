@@ -25,6 +25,14 @@ Inside of your Astro project, you'll see the following folders and files:
 
 - Any static assets, like images, can be placed in the `public/` directory.
 
+## Learn Checks
+✅ Basic\
+✅ All work on same page JSX + HTML + CSS\
+✅ Components + Layouts + Flat Page Creation\
+✅ `Astro.props` => Global object that can access frontmatter data\
+✅ Dynamic Routing and Tags: `Astro.params`\
+✅ RSS XML\
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
