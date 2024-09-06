@@ -1,7 +1,7 @@
 # 🚀 Mini Astro Project | 🐱‍🚀👩‍🚀👨‍🚀
 
 ```sh
-npm create astro@latest -- --template minimal
+git clone https://github.com/vibhmitra/mini-astro-project.git
 ```
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
