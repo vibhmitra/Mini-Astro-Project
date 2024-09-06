@@ -20,7 +20,7 @@ html {
     font-size: 2.5rem;
   }
 
-  /* nav styles */
+/* nav styles */
 
 .hamburger {
     padding-right: 20px;
@@ -77,8 +77,8 @@ html {
     padding: 15px 20px;
   }
 
-.hamburger {
+  .hamburger {
     display: none;
+  }
 }
 
-}
