@@ -63,6 +63,11 @@ html {
   color:#f1f5f9;
 }
 
+.nav-links a:active {
+  background-color: #4d1d9575;
+  color:#f1f5f9;
+}
+
 .expanded {
   display: unset;
 }
