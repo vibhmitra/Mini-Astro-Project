@@ -36,7 +36,6 @@ html {
 }
 
 .nav-links {
-  color: #4c1d95;
   width: 100%;
   top: 5rem;
   left: 48px;
@@ -45,6 +44,7 @@ html {
 }
 
 .nav-links a {
+  color: #4c1d95;
   display: block;
   text-align: center;
   padding: 10px 0;
@@ -90,4 +90,33 @@ html {
     display: none;
   }
 }
+
+/* dark theme */
+html.dark {
+  background-color: #12111a;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #f1f5f9;
+}
+
+.dark .tags .tag {
+  color: white;
+  background-color: #1e0c3a;
+}
+
+.dark .tags .tag a {
+  color: white;
+}
+
+.dark .meta {
+  color: white!important;
+}
+
+
 
