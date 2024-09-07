@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
+import Greeting from "../components/Greeting";
+
 const pageTitle = "My Astro Site ";
 
 const emoji = "🚀";
@@ -8,7 +10,9 @@ const emoji = "🚀";
 
 <BaseLayout pageTitle={pageTitle} pageEmoji={emoji}>
 	<h2>My awesome blog subtitle.</h2>
-	<p></p>
+
+	<Greeting client:load messages={["Hi", "Hello", "Howdy", "Hey there"]} />
+
 	<p>
 		Hello there! 🌠🐱‍🚀👩‍🚀👨‍🚀😲, fellow Astro enthusiasts! 🚀 Welcome to my
 		awesome astro website where I'm sharing my journey 🚗 of learning the 🌠

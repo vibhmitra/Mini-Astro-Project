@@ -32,7 +32,7 @@ html {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #ff9776;
+    background-color: #4c1d95;
 }
 
 .nav-links {
@@ -54,9 +54,13 @@ html {
   text-transform: uppercase;
 }
 
-.nav-links a:hover,
+.nav-links a:hover {
+  background-color: #4d1d9515;
+}
+
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #4d1d9575;
+  color:#f1f5f9;
 }
 
 .expanded {
