@@ -32,6 +32,7 @@ Inside of your Astro project, you'll see the following folders and files:
 ✅ `Astro.props` => Global object that can access frontmatter data\
 ✅ Dynamic Routing and Tags: `Astro.params`\
 ✅ RSS XML\
+✅ Islands | Added Dark theme functionality
 
 ## 🧞 Commands
 
