@@ -34,7 +34,7 @@ This Astro project kinda look like this:
 ✅ `Astro.props` => Global object that can access frontmatter data\
 ✅ Dynamic Routing and Tags: `Astro.params`\
 ✅ RSS XML\
-✅ Islands | Added Dark theme functionality
+✅ Islands | Added Dark theme functionality\
 ✅ Content Collection
 
 ## 🧞 Commands
