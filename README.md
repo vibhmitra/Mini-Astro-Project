@@ -10,7 +10,7 @@ git clone https://github.com/vibhmitra/mini-astro-project.git
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+This Astro project kinda look like this:
 
 ```text
 /
