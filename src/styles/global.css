@@ -52,6 +52,7 @@ html {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  border-radius: 0.75em;
 }
 
 .nav-links a:hover {
@@ -91,6 +92,23 @@ html {
   }
 }
 
+code {
+  background-color: #4d1d9513;
+  color: #4c1d95;
+  font-size: large;
+  border-radius: 0.5em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.text-wavy {
+   text-decoration-line: underline;
+   text-decoration-style: wavy;
+   text-underline-offset: 1rem;
+   text-decoration-color: #562a97;
+   text-decoration-thickness: 0.15rem;
+}
+
 /* dark theme */
 html.dark {
   background-color: #12111a;
@@ -118,5 +136,13 @@ html.dark {
   color: white!important;
 }
 
+.dark code, pre {
+  background-color: #4d1d951f;
+  color: #d1c6e2ce;
+  font-size: large;
+  border-radius: 0.5em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
 
 
