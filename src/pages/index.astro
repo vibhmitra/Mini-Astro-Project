@@ -19,18 +19,22 @@ const emoji = "🚀";
 		Astro framework.
 	</p>
 	<p>
-		I'm <b class="name">Vibhanshu</b>with a passion for doom scrolling 🪐⌚.
-		On this site, I'll share tutorials, tips, and tricks that I've learned
-		along the way. Let's build amazing web applications together!"
+		I'm <b class="dark name">Vibhanshu</b>with a passion for doom scrolling
+		🪐⌚. On this site, I'll share tutorials, tips, and tricks that I've
+		learned along the way. Let's build amazing web applications together!"
 	</p>
 </BaseLayout>
 
-<style>
+<style is:global>
 	.name {
 		font-size: 2rem;
 		background-color: #4d1d9515;
 		color: #4c1d95;
 		border-radius: 0.75em;
 		padding: 0 0.5em 0 0.5em;
+	}
+
+	.dark .name {
+		color: white;
 	}
 </style>

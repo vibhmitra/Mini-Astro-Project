@@ -10,7 +10,9 @@ const { frontmatter } = Astro.props;
         On {frontmatter.pubDate.toString()}
     </p>
 
-    { (frontmatter.image.alt || frontmatter.image.url) && (
+    <!-- top image  -->
+    { 
+        (frontmatter.image.url) && (
             <div class="center">
                 <img
                     src={frontmatter.image.url}
