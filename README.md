@@ -1,6 +1,6 @@
 # 🚀 Mini Astro Project | 🐱‍🚀👩‍🚀👨‍🚀
 
-![It was just a tutorial! 🤷‍♀️ ](https://github.com/vibhmitra/mini-astro-project/blob/af6fc7902df511208bd937f943cd5b7844c5027e/docs/mockup-image.png)
+![It was just a tutorial! 🤷‍♀️ ](https://raw.githubusercontent.com/vibhmitra/mini-astro-project/main/docs/mockup-image2.png)
 
 ```sh
 git clone https://github.com/vibhmitra/mini-astro-project.git
