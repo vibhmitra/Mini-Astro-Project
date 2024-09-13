@@ -4,13 +4,13 @@ pubDate:  2024-09-12T11:24:20.1234+05:30
 description: 'This blog post usage content collection'
 author: 'Astronaut Vibhanshu'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
+    url: 'https://docs.astro.build/default-og-image.png'
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "contet-collection"]
 ---
 
 ## Content Collection in Astro 🧩
-- Content collection allows you oraganize your posts in a structured manner.
+- Content collection allows you to oraganize your posts in a structured manner.
 - Its good for scalability. ⚖
 
 ### How to setup?
