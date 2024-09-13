@@ -7,7 +7,7 @@ const { frontmatter } = Astro.props;
     <p><em>{frontmatter.description}</em></p>
     <p class="meta">
         Written by: <b>{frontmatter.author}</b> on {
-            frontmatter.pubDate.toString().slice(0, 10)
+            frontmatter.pubDate.toString()
         }
     </p>
 

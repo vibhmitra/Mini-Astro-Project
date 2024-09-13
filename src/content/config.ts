@@ -14,6 +14,8 @@ const postsCollection = defineCollection({
       }),
       tags: z.array(z.string())
     })
+    // If you want to make any of the properties optional in markdown just
+    // append the `z.string()` with `optional()` method
 });
 // Export a single `collections` object to register your collection(s)
 export const collections = {

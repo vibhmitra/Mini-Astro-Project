@@ -1,9 +1,13 @@
 ---
+// this will look for the schema in the config file defined `@content/config.ts`
 import { getCollection } from "astro:content";
 import MarkdownPostLayout from "../../layouts/MarkdownPostLayout.astro";
 
+// This function is responsible for creating routes and setting up Astro Props and Parasms
+// Astro.params = INCOMING, the incoming parameters which will come from the request [...slug] 👈
+// Astro.props = OUTGOING, the outgoing porperties which will go with it, when we import in any file where it is getting used.
 export async function getStaticPaths() {
-    const blogEntries = await getCollection("posts");
+    const blogEntries = await getCollection("posts"); // this will access a const name 'post' inside your 'config.ts'
     return blogEntries.map((entry) => ({
         params: { slug: entry.slug },
         props: { entry },
