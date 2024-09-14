@@ -6,7 +6,9 @@ html {
     /* font-family: sans-serif; */
     font-family: "Inter", sans-serif, "Courier New", Courier, monospace,
         "Noto Color Emoji", "Segoe UI Emoji";
-    font-optical-sizing: auto;
+    --webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
 }
 
 body {
