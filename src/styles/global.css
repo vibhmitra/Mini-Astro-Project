@@ -1,24 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+
 html {
     background-color: #f1f5f9;
-    font-family: sans-serif;
-  }
-  
-  body {
+    /* font-family: sans-serif; */
+    font-family: "Inter", sans-serif, "Courier New", Courier, monospace,
+        "Noto Color Emoji", "Segoe UI Emoji";
+    font-optical-sizing: auto;
+}
+
+body {
     margin: 0 auto;
     width: 100%;
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
-  }
+}
 
 /* nav styles */
 
@@ -26,7 +32,7 @@ html {
     padding-right: 20px;
     cursor: pointer;
 }
-  
+
 .hamburger .line {
     display: block;
     width: 40px;
@@ -36,113 +42,112 @@ html {
 }
 
 .nav-links {
-  width: 100%;
-  top: 5rem;
-  left: 48px;
-  display: none;
-  margin: 0;
+    width: 100%;
+    top: 5rem;
+    left: 48px;
+    display: none;
+    margin: 0;
 }
 
 .nav-links a {
-  color: #4c1d95;
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 0.75em;
+    color: #4c1d95;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.75em;
 }
 
 .nav-links a:hover {
-  background-color: #4d1d9515;
+    background-color: #4d1d9515;
 }
 
 .nav-links a:focus {
-  background-color: #4d1d9575;
-  color:#f1f5f9;
+    background-color: #4d1d9575;
+    color: #f1f5f9;
 }
 
 .nav-links a:active {
-  background-color: #4d1d9575;
-  color:#f1f5f9;
+    background-color: #4d1d9575;
+    color: #f1f5f9;
 }
 
 .expanded {
-  display: unset;
+    display: unset;
 }
 
 @media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
+    .nav-links {
+        margin-left: 5em;
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+    }
 
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
+    .nav-links a {
+        display: inline-block;
+        padding: 15px 20px;
+    }
 
-  .hamburger {
-    display: none;
-  }
+    .hamburger {
+        display: none;
+    }
 }
 
 code {
-  background-color: #4d1d9513;
-  color: #4c1d95;
-  font-size: large;
-  border-radius: 0.5em;
-  padding-right: 5px;
-  padding-left: 5px;
+    background-color: #4d1d9513;
+    color: #4c1d95;
+    font-size: large;
+    border-radius: 0.5em;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .text-wavy {
-   text-decoration-line: underline;
-   text-decoration-style: wavy;
-   text-underline-offset: 1rem;
-   text-decoration-color: #562a97;
-   text-decoration-thickness: 0.15rem;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 1rem;
+    text-decoration-color: #562a97;
+    text-decoration-thickness: 0.15rem;
 }
 
 /* dark theme */
 html.dark {
-  background-color: #12111a;
-  color: #fff;
+    background-color: #12111a;
+    color: #fff;
 }
 
 .dark .nav-links a {
-  color: #fff;
+    color: #fff;
 }
 
 .dark a {
-  color: #f1f5f9;
+    color: #f1f5f9;
 }
 
 .dark .tags .tag {
-  color: white;
-  background-color: #1e0c3a;
+    color: white;
+    background-color: #1e0c3a;
 }
 
 .dark .tags .tag a {
-  color: white;
+    color: white;
 }
 
 .dark .meta {
-  color: white!important;
+    color: white !important;
 }
 
-.dark code, pre {
-  background-color: #4d1d951f;
-  color: #d1c6e2ce;
-  font-size: large;
-  border-radius: 0.5em;
-  padding-right: 5px;
-  padding-left: 5px;
+.dark code,
+pre {
+    background-color: #4d1d951f;
+    color: #d1c6e2ce;
+    font-size: large;
+    border-radius: 0.5em;
+    padding-right: 5px;
+    padding-left: 5px;
 }
-
-

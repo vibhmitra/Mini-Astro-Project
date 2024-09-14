@@ -4,11 +4,8 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title} pageEmoji={frontmatter.pageEmoji}>
-    <p><em>{frontmatter.description}</em></p>
-    <p class="meta">
-        Written by <b>{frontmatter.author}</b>
-        On {frontmatter.pubDate.toString()}
-    </p>
+    <h3><em>{frontmatter.description}</em></h3>
+    <p class="meta">by <b>{frontmatter.author}</b> On {frontmatter.pubDate.toString().slice(0,15)}</p>
 
     <!-- top image  -->
     { 
@@ -24,6 +21,7 @@ const { frontmatter } = Astro.props;
         )
     }
 
+    <!--Slot for Markdown formatted Contents  -->
     <slot />
 
     <div class="tags">
@@ -61,7 +59,7 @@ const { frontmatter } = Astro.props;
         /* border: dotted 1px #a1a1a1; */
         border-radius: 0.5em;
         padding: 0.5em 1em;
-        font-size: 1.15em;
+        font-size: 1.15rem;
         background-color: #4d1d9515;
     }
 
@@ -75,13 +73,11 @@ const { frontmatter } = Astro.props;
     }
 
     .meta {
-        font-size: 0.8rem;
+        font-size: 1rem;
         max-width: 100%;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-            sans-serif;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
         color: #3a3a3a;
-        background-color: #4d1d9515;
-        padding: 0.25rem 4rem 0.25rem 4rem;
+        padding-bottom: 0.25rem;
         border-radius: 0.75rem;
     }
 

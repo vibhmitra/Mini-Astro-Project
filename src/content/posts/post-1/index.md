@@ -1,11 +1,11 @@
 ---
-title: 'My First Blog Post'
-pubDate:  2024-09-04
-description: 'This is the first post of my new Astro blog.'
-author: 'Astronaut Vibhanshu'
+title: "My First Blog Post"
+pubDate: 2024-09-04
+description: "This is the first post of my new Astro blog."
+author: "Vibhanshu"
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: "https://docs.astro.build/assets/rose.webp"
+    alt: "The Astro logo on a dark background with a pink glow."
 tags: ["astro", "blogging", "learning in public", "customtag"]
 ---
 
