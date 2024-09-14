@@ -9,7 +9,7 @@ import MarkdownPostLayout from "../../layouts/MarkdownPostLayout.astro";
 export async function getStaticPaths() {
     const blogEntries = await getCollection("posts"); // this will access a const name 'post' inside your 'config.ts'
     return blogEntries.map((entry) => ({
-        params: { slug: entry.slug },
+        params: { slug: entry.slug},
         props: { entry },
     }));
 }
