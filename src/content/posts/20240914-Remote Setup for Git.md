@@ -5,7 +5,7 @@ pubDate: 2024-09-14T13:35:00+05:30
 description: 'So I was learning Git!'
 author: 'Astronaut Vibhanshu'
 image:
-    url: 'https://fastly.picsum.photos/id/619/536/354.jpg'
+    url: 'https://fastly.picsum.photos/id/619/536/354.jpg?hmac=s064nXIuEHVMPv-tJLJpbXd3XnWHtq0zN9yZP5PXpe4'
     alt: 'Some red alarm thingy.'
 tags: ["Git", "blogging", "GitHub", "Learning"]
 
