@@ -2,9 +2,9 @@
 import ThemeIcon from "./ThemeIcon.astro";
 ---
 
-<div class="nav-links" transition:animate="slide">
+<div class="nav-links" transition:animate="fade">
     <a href="/">Home</a>
-    <a href="/about/" data-astro-reload>About</a>
+    <a href="/about/">About</a> <!-- add this 👉 'data-astro-reload' when you linking to external href which might now have View Transition -->
     <a href="/blog/">Blog</a>
     <a href="/tags/">Tags</a>
     <a href="/rss.xml">🛰️</a>
