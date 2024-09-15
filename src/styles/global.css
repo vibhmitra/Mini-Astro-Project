@@ -8,8 +8,7 @@
 html {
     background-color: #f1f5f9;
     /* font-family: sans-serif; */
-    font-family: "Poppins", sans-serif, "Courier New", Courier, monospace,
-        "Noto Color Emoji", "Segoe UI Emoji";
+    font-family: "Poppins", sans-serif, "Courier New", Courier, monospace, "Noto Color Emoji", "Segoe UI Emoji";
     --webkit-font-smoothing: antialiased;
     font-synthesis: none;
     font-optical-sizing: auto;
