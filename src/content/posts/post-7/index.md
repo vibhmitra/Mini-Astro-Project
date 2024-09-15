@@ -1,5 +1,5 @@
 ---
-title: The Curious Case of the Disappearing Fonts
+title: Disappearing Fonts
 pubDate: 2024-09-15T19:33:03.684Z
 author: Vibhanshu
 tags:
@@ -12,8 +12,8 @@ tags:
 pageEmoji: ✨
 description: Took me about half of the day to fix fonts / emoji's
 image:
-    url: https://picsum.photos/600/1
-    alt: " "
+    url: https://picsum.photos/id/304/4000/1900
+    alt: "Some persons' hand configuring audio maybe?"
 location:
     alias: 102JASOLA_DL
     coordinates: " "
