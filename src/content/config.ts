@@ -10,8 +10,8 @@ const postsCollection = defineCollection({
         modDate: z.date().optional(),
         location: z
             .object({
-                cordinates: z.string(),
-                altName: z.string(),
+                coordinates: z.string(),
+                alias: z.string(),
             })
             .optional(),
         author: z.string(),
