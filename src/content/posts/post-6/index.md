@@ -1,17 +1,22 @@
 ---
-title: "Remote Setup for Git"
-description: "So I was learning Git!"
+title: Remote Setup for Git
+description: So I was learning Git!
 pubDate: 2024-09-14T13:35:00+05:30
 modDate: 2024-09-14T13:35:00+05:30
 location:
     coordinates: ""
     alias: ""
-author: "Vibhanshu"
+author: Vibhanshu
 image:
-    url: "https://picsum.photos/id/116/4000/1900"
-    alt: "A farmhouse in Toscana, Italy by Anton Sulsky"
-tags: ["git", "blogging", "github", "learning"]
-pageEmoji: "🎈"
+    url: https://picsum.photos/id/116/4000/1900
+    alt: A farmhouse in Toscana, Italy by Anton Sulsky
+tags:
+    - git
+    - blogging
+    - github
+    - learning
+pageEmoji: 🎈
+fmContentType: posts
 ---
 
 ## Scenario 1 | If Local Already Exist 💻

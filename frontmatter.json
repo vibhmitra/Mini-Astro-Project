@@ -1,22 +1,10 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.framework.id": "astro",
-  "frontMatter.preview.host": "http://localhost:4321",
-  "frontMatter.content.publicFolder": "public",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "posts",
-      "path": "[[workspace]]/src/content/posts",
-      "contentTypes": [
-        "posts"
-      ]
-    }
-  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "posts",
       "previewPath": "'posts'",
-      "pageBundle": true,
+      "pageBundle": false,
       "clearEmpty": true,
       "fields": [
         {
@@ -25,14 +13,36 @@
           "type": "string"
         },
         {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
           "title": "pubDate",
           "name": "pubDate",
           "type": "datetime"
         },
         {
-          "title": "description",
-          "name": "description",
-          "type": "string"
+          "title": "modDate",
+          "name": "modDate",
+          "type": "datetime"
+        },
+        {
+          "title": "location",
+          "name": "location",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "coordinates",
+              "name": "coordinates",
+              "type": "string"
+            },
+            {
+              "title": "alias",
+              "name": "alias",
+              "type": "string"
+            }
+          ]
         },
         {
           "title": "author",
@@ -67,29 +77,24 @@
           "type": "string"
         },
         {
-          "title": "modDate",
-          "name": "modDate",
-          "type": "datetime"
-        },
-        {
-          "title": "location",
-          "name": "location",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "coordinates",
-              "name": "coordinates",
-              "type": "string"
-            },
-            {
-              "title": "alias",
-              "name": "alias",
-              "type": "string"
-            }
-          ]
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
         }
       ]
     }
   ],
-  "frontMatter.git.enabled": false
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/src/content/posts",
+      "contentTypes": [
+        "posts"
+      ]
+    }
+  ],
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.git.enabled": true
 }
