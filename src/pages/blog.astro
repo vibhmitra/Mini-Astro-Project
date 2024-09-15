@@ -2,7 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 import { getCollection } from "astro:content";
-import "../styles/global.css";
 // const allPosts = await Astro.glob("./posts/*.md"); // 🌎 Astro.glob() will return array of object that contains info about out file
 const allPosts = await getCollection("posts");
 const pageTitle = "Blog";
@@ -14,13 +13,7 @@ const pageTitle = "Blog";
     <ul>
         {
             // Calling out BasePost Componet | Sending some data to `BlogPost.astro` component, It will receive it in Astro.props.
-            allPosts.map((post) => (
-                <BlogPost
-                    url={`/posts/${post.slug}/`}
-                    title={post.data.title}
-                    date={post.data.pubDate}
-                />
-            ))
+            allPosts.map((post) => <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} date={post.data.pubDate} />)
         }
     </ul>
 </BaseLayout>
