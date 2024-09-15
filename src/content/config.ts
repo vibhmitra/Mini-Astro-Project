@@ -5,8 +5,15 @@ const postsCollection = defineCollection({
     type: "content",
     schema: z.object({
         title: z.string(),
-        pubDate: z.date(),
         description: z.string(),
+        pubDate: z.date(),
+        modDate: z.date().optional(),
+        location: z
+            .object({
+                cordinates: z.string(),
+                altName: z.string(),
+            })
+            .optional(),
         author: z.string(),
         image: z.object({
             url: z.string(),
