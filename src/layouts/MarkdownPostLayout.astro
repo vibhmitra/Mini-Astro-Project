@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props;
 
 <BaseLayout pageTitle={frontmatter.title} pageEmoji={frontmatter.pageEmoji}>
     <h3><em>{frontmatter.description}</em></h3>
-    <p class="meta">by <b>{frontmatter.author}</b> On {frontmatter.pubDate.toString().slice(0,15)}</p>
+    <p class="meta">by <a href="/about"><b>{frontmatter.author}</b></a> On {frontmatter.pubDate.toString().slice(0,15)}</p>
 
     <!-- top image  -->
     { 
