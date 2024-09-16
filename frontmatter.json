@@ -4,8 +4,8 @@
     {
       "name": "posts",
       "previewPath": "'posts'",
-      "pageBundle": false,
-      "clearEmpty": true,
+      "pageBundle": true,
+      "clearEmpty": false,
       "fields": [
         {
           "title": "title",
