@@ -26,9 +26,12 @@ const { pageTitle, pageEmoji } = Astro.props;
     </head>
     <body>
         <Header />
-        <h1 class="text-wavy">{pageTitle} {pageEmoji}</h1>
-        <slot />
+        <div class="container">
+            <h1 class="text-wavy">{pageTitle} {pageEmoji}</h1>
+            <slot />
+        </div>
         <Footer />
+    
         <script>
             import "../scripts/menu.js";
         </script>

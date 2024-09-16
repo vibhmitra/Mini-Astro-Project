@@ -1,5 +1,3 @@
-
-
 /* Don't know why but importing directily in stylesheet, fonts on some page were not loading properly. 😐
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
@@ -28,11 +26,18 @@ body {
 
 * {
     box-sizing: border-box;
+    /* outline: 1px solid rgba(255, 0, 0, 0.295); CSS Debug */
 }
 
 h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
+}
+
+.container {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: #817e8615;
 }
 
 /* nav styles */
@@ -90,8 +95,9 @@ h1 {
 
 @media screen and (min-width: 636px) {
     .nav-links {
-        margin-left: 5em;
+        margin-left: auto;
         display: block;
+        text-align: center;
         position: static;
         width: auto;
         background: none;
@@ -100,10 +106,17 @@ h1 {
     .nav-links a {
         display: inline-block;
         padding: 15px 20px;
+        vertical-align: middle;
     }
 
     .hamburger {
         display: none;
+    }
+
+    .container {
+        padding: 2rem;
+        border-radius: 2rem;
+        background-color: #817e8615;
     }
 }
 
@@ -128,6 +141,10 @@ code {
 html.dark {
     background-color: #12111a;
     color: #fff;
+}
+
+.dark .container {
+    background-color: rgba(44, 44, 46, 0.514);
 }
 
 .dark .nav-links a {
