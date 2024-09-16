@@ -34,6 +34,14 @@ h1 {
     font-size: 2.5rem;
 }
 
+a {
+    color: #181717;
+}
+
+a:hover {
+    color: #4c1d95;
+}
+
 .container {
     padding: 1.5rem;
     border-radius: 2rem;

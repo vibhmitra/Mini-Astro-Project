@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 import { getCollection } from "astro:content";
 // const allPosts = await Astro.glob("./posts/*.md"); // 🌎 Astro.glob() will return array of object that contains info about out file
-const allPosts = await getCollection("posts");
+const allPosts = (await getCollection("posts")).reverse();
 const pageTitle = "Blog";
 ---
 

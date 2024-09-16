@@ -1,7 +1,10 @@
 ---
-const { title, url } = Astro.props;
----
+const { title, url, date } = Astro.props;
 
-<li style="list-style: '👉  ';">
-    <a href={url}>{title}</a>
-</li>
+const dateConverted = new Date(date).toISOString().slice(0,10);
+---
+<div class="list-card"> 
+    <li style="list-style: '👉  '; line-height: 2rem;">
+        <a href={url}>{title}</a> - <span style="font-size: small;">({dateConverted})</span>
+    </li>
+</div>
