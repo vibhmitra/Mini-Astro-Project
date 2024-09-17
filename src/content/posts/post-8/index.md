@@ -4,11 +4,11 @@ fmContentType: posts
 description: I fixed many more issues today!
 location:
     coordinates: " "
-    alias: "102JASOLA_DL"
+    alias: 102JASOLA_DL
 author: Vibhanshu
 image:
     alt: Some wallpaper I found on the internet!
-    url: https://wallpapercave.com/wp/wp8626070.jpg
+    url: "https://wallpapercave.com/wp/wp8626070.jpg"
 tags:
     - astro
     - blogging
@@ -16,7 +16,7 @@ tags:
     - styling
     - FrontMatterCMS
 pubDate: 2024-09-16T18:52:39.892Z
-modDate: 2024-09-16T18:52:40.768Z
+modDate: 2024-09-17T09:59:10.094Z
 ---
 
 I fixed many issues today. 🛠️ I think the blog tutorial given by Astro had a few issues. First, the theme toggle was just right below the hamburger menu, which I didn't like. 🍔 Additionally, there was a weird space appearing before the navbar for some reason. 🤔
