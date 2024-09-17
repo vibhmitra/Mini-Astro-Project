@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 80ch;
-    padding: 1rem;
+    padding: 1rem 0;
     line-height: 1.5;
 }
 
@@ -52,6 +52,7 @@ a:hover {
 
 .hamburger {
     padding-right: 20px;
+    padding-left: 1rem;
     cursor: pointer;
 }
 
@@ -102,6 +103,14 @@ a:hover {
 }
 
 @media screen and (min-width: 636px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 80ch;
+        padding: 1rem;
+        line-height: 1.5;
+    }
+
     .nav-links {
         margin-left: auto;
         display: block;
