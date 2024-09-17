@@ -7,7 +7,7 @@ location:
     alias: "102JASOLA_DL"
 author: Vibhanshu
 image:
-    alt: Some walleper I found on the internet!
+    alt: Some wallpaper I found on the internet!
     url: https://wallpapercave.com/wp/wp8626070.jpg
 tags:
     - astro
