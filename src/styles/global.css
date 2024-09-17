@@ -14,6 +14,10 @@ html {
     font-synthesis: none;
     font-optical-sizing: auto;
     text-rendering: optimizeLegibility;
+    /* background-image: url("https://images7.alphacoders.com/315/315518.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
 }
 
 body {
@@ -45,7 +49,8 @@ a:hover {
 .container {
     padding: 1.5rem;
     border-radius: 2rem;
-    background-color: #817e8615;
+    /* background-color: #817e8615; */
+    background-color: #e8ebf0;
 }
 
 /* nav styles */
@@ -85,17 +90,32 @@ a:hover {
 }
 
 .nav-links a:hover {
-    background-color: #4d1d9515;
+    /* background-color: #4d1d9515; */
+    background-color: #e3e2f0;
+}
+
+.dark .nav-links a:hover {
+    background-color: #171226;
 }
 
 .nav-links a:focus {
-    background-color: #4d1d9575;
+    /* background-color: #4d1d9575;  rgba(77, 29, 149, 0.46) + rgba(241, 245, 249, 1) */
+    background-color: #a493c9;
     color: #f1f5f9;
 }
 
+.dark .nav-links a:focus {
+    background-color: rgba(159, 137, 199, 0.73);
+}
+
 .nav-links a:active {
-    background-color: #4d1d9575;
+    /* background-color: #4d1d9575; */
+    background-color: #a493c9;
     color: #f1f5f9;
+}
+
+.dark .nav-links a:active {
+    background-color: #211a36;
 }
 
 .expanded {
@@ -133,17 +153,9 @@ a:hover {
     .container {
         padding: 2rem;
         border-radius: 2rem;
-        background-color: #817e8615;
+        /* background-color: #817e8615; */
+        background-color: #e8ebf0;
     }
-}
-
-code {
-    background-color: #4d1d9513;
-    color: #4c1d95;
-    font-size: large;
-    border-radius: 0.5em;
-    padding-right: 5px;
-    padding-left: 5px;
 }
 
 .text-wavy {
@@ -161,7 +173,8 @@ html.dark {
 }
 
 .dark .container {
-    background-color: rgba(44, 44, 46, 0.514);
+    /* background-color: rgba(44, 44, 46, 0.514); */
+    background-color: #201f25;
 }
 
 .dark .nav-links a {
@@ -185,12 +198,28 @@ html.dark {
     color: white !important;
 }
 
-.dark code,
 pre {
-    background-color: #4d1d951f;
-    color: #d1c6e2ce;
-    font-size: large;
-    border-radius: 0.5em;
-    padding-right: 5px;
-    padding-left: 5px;
+    border: 1px solid grey;
+    border-radius: 0.75em;
+    padding: 2rem;
+    font-size: medium;
+    /* background-color: rgb(33, 32, 34); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+/* .dark pre {
+    background-color: rgb(24, 23, 23);
+} */
+
+code {
+    color: #4c1d95 !important;
+    font-family: "Inter" !important;
+}
+
+.dark code {
+    color: #bc93f7 !important;
 }
