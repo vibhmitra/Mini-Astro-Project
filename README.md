@@ -36,6 +36,7 @@ This Astro project kinda look like this:
 ✅ RSS XML\
 ✅ Islands | Added Dark theme functionality\
 ✅ Content Collection
+✅ View Transition
 
 ## 🧞 Commands
 
