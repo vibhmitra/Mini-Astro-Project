@@ -35,7 +35,7 @@ This Astro project kinda look like this:
 ✅ Dynamic Routing and Tags: `Astro.params`\
 ✅ RSS XML\
 ✅ Islands | Added Dark theme functionality\
-✅ Content Collection
+✅ Content Collection\
 ✅ View Transition
 
 ## 🧞 Commands
