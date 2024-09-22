@@ -51,6 +51,42 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## ✨ Frontmatter
+```
+---
+title: "A good title"
+description: "Small description about post."
+pubDate: 2024-08-13T18:52:39.892Z
+modDate: 2024-08-19T09:59:10.094Z
+location:
+    coordinates: "41.5868,-93.6395"
+    alias: "DSM"
+author: "Astronaut"
+image:
+    alt: "Some cool text about the image"
+    url: "./wow.webp"
+tags:
+    - tag1
+    - tag2
+    - tag3
+---
+```
+| properties             | type     | required / optional    |
+| ---------------------- | -------- | ---------------------- |
+| `title`                | string   | required               |
+| `description`          | string   | required               |
+| `pubDate`              | datetime | optional               |
+| `modDate`              | datetime | optional               |
+| `location`             | object   | optional               |
+| `location.coordinates` | string   | required               |
+| `location.alias`       | string   | required               |
+| `author`               | string   | required               |
+| `image`                | object   | required               |
+| `image.url`            | string   | required (but handled) |
+| `image.alt`            | string   | required (but handled) |
+| `tags`                 | array    | required               |
+| `pageEmoji`            | string   | optional ((っ °Д °;)っ)  |
+
 ## 👀 Netlify Status?
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4be473c9-e041-409f-b88f-5ee5efe316c0/deploy-status)](https://app.netlify.com/sites/miniastro/deploys)
